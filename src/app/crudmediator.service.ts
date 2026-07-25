@@ -8,7 +8,7 @@ export class CrudmediatorService {
 
   constructor(public http:HttpClient) { }
   id:any;
-  
+      
   addstudent(params:any){
     return this.http.post("https://springboot-backend1-production.up.railway.app/savestud",params)
   }
